@@ -1,0 +1,24 @@
+name: AIChatBot
+version: 1.0
+main: com.primexiter.AIChatBot.AIChatBot
+api-version: 1.21
+authors: [BanglaBlade]
+website: www.primexiter.com
+
+commands:
+  aichat:
+    description: Talk to the AI
+    usage: /aichat <message>
+    permission: aichat.use
+  aichatreload:
+    description: Reload the AI configuration
+    usage: /aichatreload
+    permission: aichat.admin
+
+permissions:
+  aichat.use:
+    description: Allows players to chat with the AI
+    default: true
+  aichat.admin:
+    description: Allows reloading the plugin config
+    default: op
