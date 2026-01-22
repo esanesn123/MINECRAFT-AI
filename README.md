@@ -1,0 +1,2 @@
+# MINECRAFT-AI
+AI CHAT USING /aichat
